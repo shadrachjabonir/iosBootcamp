@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iosBootcamp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0139" translatesAutoresizingMaskIntoConstraints="NO" id="Tfb-xy-K7E">
+                                <rect key="frame" x="165" y="159" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="8ZX-nJ-bGb"/>
+                                    <constraint firstAttribute="width" constant="100" id="WSe-Xo-x9h"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shadrach Jabon Ir" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQR-jP-WkX">
+                                <rect key="frame" x="16" y="267" width="398" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bwh-V1-Pdy" userLabel="Stack View Containers">
+                                <rect key="frame" x="65" y="295.33333333333331" width="300" height="40"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ORI-dy-seO">
+                                        <rect key="frame" x="0.0" y="0.0" width="94.666666666666671" height="40"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JaB-YG-QD1">
+                                                <rect key="frame" x="0.0" y="1" width="40" height="38.666666666666671"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="AUd-10-7eD"/>
+                                                    <constraint firstAttribute="height" constant="40" id="DZd-Aw-nV2"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKU-mZ-veM">
+                                                <rect key="frame" x="40" y="0.0" width="54.666666666666657" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kWh-cC-bEL">
+                                        <rect key="frame" x="102.66666666666666" y="0.0" width="94.666666666666657" height="40"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0a5-of-63s">
+                                                <rect key="frame" x="0.0" y="1" width="40" height="38.666666666666671"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="1U0-7x-B22"/>
+                                                    <constraint firstAttribute="height" constant="40" id="Xht-4S-tno"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aU9-zo-eyt">
+                                                <rect key="frame" x="40" y="0.0" width="54.666666666666657" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RxT-dA-Xiw">
+                                        <rect key="frame" x="205.33333333333331" y="0.0" width="94.666666666666686" height="40"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="TNk-6j-TQk">
+                                                <rect key="frame" x="0.0" y="1" width="40" height="38.666666666666671"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="sZ9-Rc-emH"/>
+                                                    <constraint firstAttribute="height" constant="40" id="yUr-O6-br6"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1200" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vwA-3o-4IK">
+                                                <rect key="frame" x="40" y="0.0" width="54.666666666666657" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="vbR-CB-W0y"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of birth : January 22nd, 1989" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIc-zF-6ek">
+                                <rect key="frame" x="16" y="351.33333333333331" width="398" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" editable="NO" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kr1-VT-p10" userLabel="Bio">
+                                <rect key="frame" x="12" y="424" width="406" height="250"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="KXh-qK-I3e"/>
+                                </constraints>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDU-O6-8Bj">
+                                <rect key="frame" x="16" y="844" width="398" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Edit Profile"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Short Bio :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2n0-ca-fKr">
+                                <rect key="frame" x="16" y="387.66666666666669" width="398" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Tfb-xy-K7E" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0Vx-Uj-3cc"/>
+                            <constraint firstItem="dIc-zF-6ek" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2aE-Mu-jEs"/>
+                            <constraint firstItem="bwh-V1-Pdy" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="4jO-gm-yyg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2n0-ca-fKr" secondAttribute="trailing" constant="16" id="5vT-hK-eP4"/>
+                            <constraint firstItem="oDU-O6-8Bj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="CCy-cP-DXS"/>
+                            <constraint firstItem="dIc-zF-6ek" firstAttribute="top" secondItem="bwh-V1-Pdy" secondAttribute="bottom" constant="16" id="ClH-Na-efn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zQR-jP-WkX" secondAttribute="trailing" constant="16" id="FgW-PT-744"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oDU-O6-8Bj" secondAttribute="trailing" constant="16" id="N7m-hL-Q92"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oDU-O6-8Bj" secondAttribute="bottom" constant="16" id="NHd-I5-jqh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dIc-zF-6ek" secondAttribute="trailing" constant="16" id="NSJ-17-wTz"/>
+                            <constraint firstItem="2n0-ca-fKr" firstAttribute="top" secondItem="dIc-zF-6ek" secondAttribute="bottom" constant="16" id="O13-hq-5YA"/>
+                            <constraint firstItem="bwh-V1-Pdy" firstAttribute="top" secondItem="zQR-jP-WkX" secondAttribute="bottom" constant="8" id="Od1-NO-ZAz"/>
+                            <constraint firstItem="Kr1-VT-p10" firstAttribute="top" secondItem="2n0-ca-fKr" secondAttribute="bottom" constant="16" id="RVJ-la-whc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kr1-VT-p10" secondAttribute="trailing" constant="12" id="ZNe-6M-Q9g"/>
+                            <constraint firstItem="oDU-O6-8Bj" firstAttribute="top" secondItem="Kr1-VT-p10" secondAttribute="bottom" constant="170" id="fDa-X2-aNP"/>
+                            <constraint firstItem="oDU-O6-8Bj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="fKL-dP-qA9"/>
+                            <constraint firstItem="zQR-jP-WkX" firstAttribute="top" secondItem="Tfb-xy-K7E" secondAttribute="bottom" constant="8" id="hcD-9v-53O"/>
+                            <constraint firstItem="2n0-ca-fKr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ikz-OT-mNU"/>
+                            <constraint firstItem="Kr1-VT-p10" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="ope-UL-r3j"/>
+                            <constraint firstItem="Tfb-xy-K7E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="p3o-II-xTi"/>
+                            <constraint firstItem="dIc-zF-6ek" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="rvJ-7Z-USf"/>
+                            <constraint firstItem="zQR-jP-WkX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="tRc-2e-us7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114.41860465116279" y="-2.5751072961373391"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_0139" width="355.66665649414062" height="533.33331298828125"/>
+        <image name="bitcoinsign.circle" catalog="system" width="128" height="123"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
