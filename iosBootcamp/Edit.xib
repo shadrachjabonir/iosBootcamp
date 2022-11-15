@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditViewController" customModule="iosBootcamp" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nama" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2e-te-FFa">
+                    <rect key="frame" x="16" y="159" width="398" height="20.333333333333343"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ujG-az-xO4" userLabel="namaField">
+                    <rect key="frame" x="16" y="195.33333333333334" width="398" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deposit Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqN-DH-KBU">
+                    <rect key="frame" x="16" y="245.33333333333334" width="398" height="20.333333333333343"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="GcR-uI-eG6" userLabel="coinStack">
+                    <rect key="frame" x="16" y="281.66666666666669" width="398" height="40"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="k9j-1R-6UF">
+                            <rect key="frame" x="0.0" y="1" width="132.66666666666666" height="38.666666666666671"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="dix-2n-8aB">
+                            <rect key="frame" x="132.66666666666669" y="1" width="132.66666666666669" height="38.666666666666671"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="nmR-3w-u8i">
+                            <rect key="frame" x="265.33333333333331" y="1" width="132.66666666666669" height="38.666666666666671"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="i6L-ze-auw"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="SpG-lZ-aDr" userLabel="coinValueStack">
+                    <rect key="frame" x="16" y="337.66666666666669" width="398" height="39.333333333333314"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sdC-JR-kkF" userLabel="coin1">
+                            <rect key="frame" x="0.0" y="2.6666666666666288" width="122" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="38L-zK-v1Z" userLabel="coin2">
+                            <rect key="frame" x="138" y="2.6666666666666288" width="122" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hA7-Wm-kwM" userLabel="coin3">
+                            <rect key="frame" x="276" y="2.6666666666666288" width="122" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of birth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ymo-nb-y4g">
+                    <rect key="frame" x="16" y="393" width="398" height="20.333333333333314"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="bottom" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="4Ut-Nb-npR">
+                    <rect key="frame" x="16" y="429.33333333333331" width="398" height="99.999999999999943"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Lqc-IZ-Quf"/>
+                    </constraints>
+                </datePicker>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Short Bio :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5t7-0t-EMd">
+                    <rect key="frame" x="16" y="545.33333333333337" width="398" height="20.333333333333371"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" editable="NO" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQL-75-4kc" userLabel="Bio">
+                    <rect key="frame" x="12" y="581.66666666666663" width="406" height="250"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="ugx-nd-2Cv"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vuv-0f-qE4">
+                    <rect key="frame" x="16" y="847.66666666666663" width="398" height="34.333333333333371"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Save Profile"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="JQL-75-4kc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="2gq-OV-1jY"/>
+                <constraint firstItem="SpG-lZ-aDr" firstAttribute="top" secondItem="GcR-uI-eG6" secondAttribute="bottom" constant="16" id="4Jf-wH-c19"/>
+                <constraint firstItem="GcR-uI-eG6" firstAttribute="top" secondItem="xqN-DH-KBU" secondAttribute="bottom" constant="16" id="4ta-na-qXy"/>
+                <constraint firstItem="5t7-0t-EMd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="5DK-uK-K8A"/>
+                <constraint firstItem="X2e-te-FFa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="6OZ-8Y-J5j"/>
+                <constraint firstItem="4Ut-Nb-npR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="7ja-Ey-tAg"/>
+                <constraint firstItem="Ymo-nb-y4g" firstAttribute="top" secondItem="SpG-lZ-aDr" secondAttribute="bottom" constant="16" id="9Mf-Gl-f8V"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5t7-0t-EMd" secondAttribute="trailing" constant="16" id="CWL-IS-Acd"/>
+                <constraint firstItem="Ymo-nb-y4g" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Dpg-hI-5Ts"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4Ut-Nb-npR" secondAttribute="trailing" constant="16" id="FaC-Ma-H9w"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="vuv-0f-qE4" secondAttribute="bottom" constant="16" id="OwT-Ju-sOf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vuv-0f-qE4" secondAttribute="trailing" constant="16" id="P02-g1-SYd"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JQL-75-4kc" secondAttribute="trailing" constant="12" id="P9W-Qa-OCp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SpG-lZ-aDr" secondAttribute="trailing" constant="16" id="Rkj-Qv-ZkA"/>
+                <constraint firstItem="ujG-az-xO4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="UHm-cJ-TV4"/>
+                <constraint firstItem="xqN-DH-KBU" firstAttribute="top" secondItem="ujG-az-xO4" secondAttribute="bottom" constant="16" id="VTW-TD-RuK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xqN-DH-KBU" secondAttribute="trailing" constant="16" id="aUf-s4-YHi"/>
+                <constraint firstItem="4Ut-Nb-npR" firstAttribute="top" secondItem="Ymo-nb-y4g" secondAttribute="bottom" constant="16" id="aoV-JO-0kd"/>
+                <constraint firstItem="X2e-te-FFa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="bOH-CO-BWE"/>
+                <constraint firstItem="5t7-0t-EMd" firstAttribute="top" secondItem="4Ut-Nb-npR" secondAttribute="bottom" constant="16" id="bnX-hP-1RL"/>
+                <constraint firstItem="GcR-uI-eG6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="dhY-Jh-vgY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ujG-az-xO4" secondAttribute="trailing" constant="16" id="fC2-4u-jqp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ymo-nb-y4g" secondAttribute="trailing" constant="16" id="fUU-q9-k1L"/>
+                <constraint firstItem="vuv-0f-qE4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="gTp-Ug-hZN"/>
+                <constraint firstItem="xqN-DH-KBU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="hwH-pk-oDH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="X2e-te-FFa" secondAttribute="trailing" constant="16" id="jIz-Tx-Djk"/>
+                <constraint firstItem="JQL-75-4kc" firstAttribute="top" secondItem="5t7-0t-EMd" secondAttribute="bottom" constant="16" id="kYg-J2-iQO"/>
+                <constraint firstItem="SpG-lZ-aDr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="lgh-y1-hcq"/>
+                <constraint firstItem="ujG-az-xO4" firstAttribute="top" secondItem="X2e-te-FFa" secondAttribute="bottom" constant="16" id="peb-8O-oR1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GcR-uI-eG6" secondAttribute="trailing" constant="16" id="rfZ-1M-Lpc"/>
+                <constraint firstItem="vuv-0f-qE4" firstAttribute="top" secondItem="JQL-75-4kc" secondAttribute="bottom" constant="16" id="yz6-X4-Qy1"/>
+            </constraints>
+            <point key="canvasLocation" x="136.74418604651163" y="20.600858369098713"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bitcoinsign.circle" catalog="system" width="128" height="123"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

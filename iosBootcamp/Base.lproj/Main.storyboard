@@ -103,13 +103,16 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="KXh-qK-I3e"/>
                                 </constraints>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDU-O6-8Bj">
-                                <rect key="frame" x="16" y="844" width="398" height="38"/>
+                                <rect key="frame" x="16" y="832" width="398" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="qEG-7i-rYF"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Edit Profile"/>
                             </button>
@@ -137,7 +140,6 @@
                             <constraint firstItem="bwh-V1-Pdy" firstAttribute="top" secondItem="zQR-jP-WkX" secondAttribute="bottom" constant="8" id="Od1-NO-ZAz"/>
                             <constraint firstItem="Kr1-VT-p10" firstAttribute="top" secondItem="2n0-ca-fKr" secondAttribute="bottom" constant="16" id="RVJ-la-whc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kr1-VT-p10" secondAttribute="trailing" constant="12" id="ZNe-6M-Q9g"/>
-                            <constraint firstItem="oDU-O6-8Bj" firstAttribute="top" secondItem="Kr1-VT-p10" secondAttribute="bottom" constant="170" id="fDa-X2-aNP"/>
                             <constraint firstItem="oDU-O6-8Bj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="fKL-dP-qA9"/>
                             <constraint firstItem="zQR-jP-WkX" firstAttribute="top" secondItem="Tfb-xy-K7E" secondAttribute="bottom" constant="8" id="hcD-9v-53O"/>
                             <constraint firstItem="2n0-ca-fKr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ikz-OT-mNU"/>

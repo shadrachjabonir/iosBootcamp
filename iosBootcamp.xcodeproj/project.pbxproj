@@ -13,6 +13,8 @@
 		543092C629213FF800846C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543092C429213FF800846C7B /* Main.storyboard */; };
 		543092C829213FF800846C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543092C729213FF800846C7B /* Assets.xcassets */; };
 		543092CB29213FF800846C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543092C929213FF800846C7B /* LaunchScreen.storyboard */; };
+		5465837C2923D05E0028FB53 /* EditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465837A2923D05E0028FB53 /* EditController.swift */; };
+		5465837D2923D05E0028FB53 /* Edit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5465837B2923D05E0028FB53 /* Edit.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		543092C729213FF800846C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		543092CA29213FF800846C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		543092CC29213FF800846C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5465837A2923D05E0028FB53 /* EditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditController.swift; sourceTree = "<group>"; };
+		5465837B2923D05E0028FB53 /* Edit.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Edit.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				543092C729213FF800846C7B /* Assets.xcassets */,
 				543092C929213FF800846C7B /* LaunchScreen.storyboard */,
 				543092CC29213FF800846C7B /* Info.plist */,
+				5465837A2923D05E0028FB53 /* EditController.swift */,
+				5465837B2923D05E0028FB53 /* Edit.xib */,
 			);
 			path = iosBootcamp;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5465837D2923D05E0028FB53 /* Edit.xib in Resources */,
 				543092CB29213FF800846C7B /* LaunchScreen.storyboard in Resources */,
 				543092C829213FF800846C7B /* Assets.xcassets in Resources */,
 				543092C629213FF800846C7B /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5465837C2923D05E0028FB53 /* EditController.swift in Sources */,
 				543092C329213FF800846C7B /* ViewController.swift in Sources */,
 				543092BF29213FF800846C7B /* AppDelegate.swift in Sources */,
 				543092C129213FF800846C7B /* SceneDelegate.swift in Sources */,
