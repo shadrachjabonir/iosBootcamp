@@ -78,7 +78,7 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="bottom" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="4Ut-Nb-npR">
+                <datePicker contentMode="scaleToFill" placeholderIntrinsicWidth="398" placeholderIntrinsicHeight="100" contentHorizontalAlignment="trailing" contentVerticalAlignment="bottom" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="4Ut-Nb-npR">
                     <rect key="frame" x="16" y="429.33333333333331" width="398" height="99.999999999999943"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="100" id="Lqc-IZ-Quf"/>
@@ -123,7 +123,10 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="vuv-0f-qE4" secondAttribute="bottom" constant="16" id="OwT-Ju-sOf"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vuv-0f-qE4" secondAttribute="trailing" constant="16" id="P02-g1-SYd"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JQL-75-4kc" secondAttribute="trailing" constant="12" id="P9W-Qa-OCp"/>
+                <constraint firstItem="4Ut-Nb-npR" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Q9U-Mp-y7V"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SpG-lZ-aDr" secondAttribute="trailing" constant="16" id="Rkj-Qv-ZkA"/>
+                <constraint firstItem="vuv-0f-qE4" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="U5V-fF-ALY"/>
+                <constraint firstItem="GcR-uI-eG6" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="UGu-BN-t75"/>
                 <constraint firstItem="ujG-az-xO4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="UHm-cJ-TV4"/>
                 <constraint firstItem="xqN-DH-KBU" firstAttribute="top" secondItem="ujG-az-xO4" secondAttribute="bottom" constant="16" id="VTW-TD-RuK"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xqN-DH-KBU" secondAttribute="trailing" constant="16" id="aUf-s4-YHi"/>
@@ -136,6 +139,7 @@
                 <constraint firstItem="vuv-0f-qE4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="gTp-Ug-hZN"/>
                 <constraint firstItem="xqN-DH-KBU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="hwH-pk-oDH"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="X2e-te-FFa" secondAttribute="trailing" constant="16" id="jIz-Tx-Djk"/>
+                <constraint firstItem="SpG-lZ-aDr" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="kYZ-TJ-g8t"/>
                 <constraint firstItem="JQL-75-4kc" firstAttribute="top" secondItem="5t7-0t-EMd" secondAttribute="bottom" constant="16" id="kYg-J2-iQO"/>
                 <constraint firstItem="SpG-lZ-aDr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="lgh-y1-hcq"/>
                 <constraint firstItem="ujG-az-xO4" firstAttribute="top" secondItem="X2e-te-FFa" secondAttribute="bottom" constant="16" id="peb-8O-oR1"/>
